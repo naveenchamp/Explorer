@@ -1,0 +1,76 @@
+/* Write your CSS here */
+/* Navbar Container */
+.nav-header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-size: cover;
+  transition: background-color 0.3s ease;
+}
+
+.nav-header.light {
+  background-color: #333333;
+}
+
+.nav-header.dark {
+  background-color: #f8f9fa;
+}
+
+/* Navbar Content */
+.nav-content {
+  width: 90%;
+  max-width: 1110px;
+  padding: 15px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Logo */
+.website-logo {
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.website-logo:hover {
+  transform: scale(1.05);
+}
+
+/* Nav Links */
+.nav-menu {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-link {
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  margin: 0 12px;
+  font-weight: 600;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.light {
+  color: #ffffff;
+}
+
+.dark {
+  color: #171f46;
+}
+
+/* Theme Toggle Button */
+.theme-btn {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.theme-icon {
+  width: 30px;
+  height: 30px;
+}

@@ -1,0 +1,58 @@
+/* Write your CSS here */
+/* Container */
+.notfound-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
+  padding: 20px;
+}
+
+.notfound-container.light {
+  background-color: #ffffff;
+}
+
+.notfound-container.dark {
+  background-color: #000000;
+}
+
+/* Image */
+.notfound-img {
+  width: 200px;
+  margin-bottom: 20px;
+  transition: transform 0.2s ease;
+}
+
+.notfound-img:hover {
+  transform: scale(1.05);
+}
+
+/* Heading */
+.notfound-heading {
+  font-family: 'Roboto', sans-serif;
+  font-size: 38px;
+  font-weight: 800;
+  margin: 12px 0;
+}
+
+.light-text {
+  color: #171f46;
+}
+
+.dark-text {
+  color: #ffffff;
+}
+
+/* Description */
+.notfound-desc {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  text-align: center;
+  max-width: 600px;
+  line-height: 1.6;
+  opacity: 0.8;
+}

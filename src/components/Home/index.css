@@ -1,0 +1,45 @@
+/* Write your CSS here */
+/* Base container */
+.home-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
+}
+
+/* Light theme */
+.home-container.light {
+  background-color: #ffffff;
+}
+
+/* Dark theme */
+.home-container.dark {
+  background-color: #000000;
+}
+
+/* Image styling */
+.home-img {
+  width: 120px;
+  margin-bottom: 16px;
+}
+
+/* Heading base style */
+.home-heading {
+  font-family: 'Roboto';
+  font-size: 36px;
+  font-weight: 800;
+  margin: 0;
+}
+
+/* Theme-specific text colors */
+.light-text {
+  color: #000000;
+}
+
+.dark-text {
+  color: #ffffff;
+}
